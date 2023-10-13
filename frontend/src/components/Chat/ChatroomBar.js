@@ -4,8 +4,11 @@ import { AppBar, Toolbar } from '@mui/material';
 export default function ChatroomBar(props) {
 return (
     <AppBar>
-        <Toolbar>
-            {props.name.toUpperCase()}
+        <Toolbar style={{
+            fontWeight:"600",
+            fontSize: "20px"
+        }}>
+            VibeChat
         </Toolbar>
     </AppBar>
 )
