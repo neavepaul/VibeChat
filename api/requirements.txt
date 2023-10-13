@@ -1,0 +1,5 @@
+tensorflow
+Flask-Cors
+Flask
+transformers
+gunicorn
